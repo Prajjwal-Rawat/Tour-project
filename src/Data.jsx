@@ -1,0 +1,58 @@
+export const Places = [
+    {
+      id: 0,
+      image: "https://foodandtravel.com/imager/hours/219609/Ministry-of-Tourism-Govt-of-India-595161_Taj-Mahal-Uttar-Pradesh-Aerial_821631bb23140209ea99c8f810f75634.jpg",
+      price: 2800,
+      name: 'Agra',
+      description: "Agra is best known for the Taj Mahal (17th century), designated a UNESCO World Heritage site in 1983. A complex mausoleum, the Taj Mahal is often considered to be the world's best example of Mughal architecture. The Mughal emperor Shah Jahān built it for his favourite wife, Mumtāz Maḥal, in the mid-17th century.",
+    },
+    {
+      id: 1,
+      image: "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/03/1c/9c.jpg",
+      price: 60000,
+      name: 'Paris',
+      description: "Since the 17th century, Paris has been one of the world's major centres of finance, diplomacy, commerce, culture, fashion, and gastronomy. For its leading role in the arts and sciences, as well as its early and extensive system of street lighting, in the 19th century, it became known as the City of Light.",
+    },
+    {
+      id: 2,
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhfJdw-m315JfIOOx0c36BwnwDRk-FWv7qzw&s",
+      price: 30000,
+      name: 'Singapore',
+      description: "Singapore is famous for its iconic attractions such as the Marina Bay Sands, Sentosa Island, and the Merlion. The city is also known for its world-class shopping districts like Orchard Road and its diverse culinary scene featuring dishes like Hainanese Chicken Rice and Chilli Crab.",
+    },
+    {
+      id: 3,
+      image: "https://5.imimg.com/data5/SELLER/Default/2022/6/KP/SS/ZA/147670257/backpacking-tour-to-goa-500x500.png",
+      price: 10000,
+      name: 'Goa',
+      description: "It is also a popular honeymoon destination. The real beauty of Goa lies in its beautiful beaches, places of worship and world heritage architecture. It also has bountiful flora and fauna, owing to its location on the Western Ghat Range and it is classified as a biodiversity hotspot.",
+    },
+    {
+      id: 4,
+      image: "https://assets.cntraveller.in/photos/63f5b2d472cc3e2749d663f5/16:9/w_2580,c_limit/GettyImages-1145042281.jpeg",
+      price: 50000,
+      name: 'Bali',
+      description: "Lazy coconut trees, long sand beaches, crystalline blue waters, lush rainforests, sleepy volcanoes, vibrant green rice terraces, fiery orange sunsets, lively monkeys, and flitting colorful birds — yes, Bali is a quintessential tropical paradise.",
+    },
+    {
+      id: 5,
+      image: "https://i.ytimg.com/vi/7NKk41YVWyA/maxresdefault.jpg",
+      price: 5000,
+      name: 'Manali',
+      description: "Situated near the end of valley, Manali is one of the most attractive tourist spot not only of Himachal Pradesh, but of International fame also. Manali is synonymous streams and birdsong, forests and orchards and grandees of snow-capped mountains.",
+    },
+    {
+      id: 6,
+      image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/d6/08/25/view-from-hotel.jpg?w=1200&h=-1&s=1",
+      price: 3200,
+      name: 'Mussoorie',
+      description: "38 Kms from Dehradun is Mussoorie with its green hills and varied flora and fauna, is a fascinating hill station. It offers a wonderful view of the Himalayan snow ranges to the north-east and the Doon Valley., Roorkee, Saharanpur and Haridwar to the South, creating an almost serene atmosphere for the tourists.",
+    },
+    {
+      id: 7,
+      image: "https://i.ytimg.com/vi/cU6F3dffo2Y/maxresdefault.jpg",
+      price: 29000,
+      name: 'Jaipur',
+      description: "Jaipur became known as “The Pink City” when, in 1876, Maharaja Ram Singh had most of the buildings painted pink—the color of hospitality—in preparation for a visit by Britain's Queen Victoria. Today, the city is known for its bazaars, forts, temples, palaces, and wildlife sanctuaries.",
+    },
+  ]
