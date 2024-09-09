@@ -13,6 +13,15 @@ function App() {
     setPlaces(newCards);
   }
 
+  if(places.length === 0){
+    return(
+      <div className="text-center items-center flex justify-center h-[100vh] flex-col"> 
+        <h1 className="text-pink-700 text-center">No Tours Left</h1>
+        <button onClick={() => setPlaces(Places)} className="border-2 py-1 px-2 mt-2">Refresh</button>
+      </div>
+    )
+  }
+
   return (
     <>
       <div className="flex items-center justify-center ">
