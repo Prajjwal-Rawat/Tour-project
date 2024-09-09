@@ -1,17 +1,21 @@
 
 
 
-function Card({image,price,name,description,id}){
-    
+function Card({image,price,name,description,id,removeCard}){
    return(
-       <div className="flex flex-col bg-slate-100 shadow-md py-5 px-5 mr-3 gap-2">
+       <div>
           <img src={image} className="w-[300px] h-[300px]" />
-          <div>
+          <div className="tour-card">
+            <div className="tour-Details">
             <p>₹{price}</p>
             <p>{name}</p>
-            <p>{description}</p>
+            </div>
+
+            <div className="discription">
+             <p>{description}</p>
+            </div>
           </div>
-          <button  key={id} >Not Interseted</button>
+          <button onClick={() => {removeCard(id)}}>Not Interseted</button>
        </div>
    )
 }
