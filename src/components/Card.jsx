@@ -13,7 +13,7 @@ function Card({image,price,name,description,id,removeCard}){
     }
 
    return(
-       <div className="w-[400px] h-max m-4 p-3 flex flex-col border-2 border-dotted shadow-lg shadow-slate-700 hover:shadow-gray-950">
+       <div className="w-[400px] m-4 p-3 flex flex-col border-2 border-dotted shadow-lg shadow-slate-700 hover:shadow-gray-950">
           <img src={image} className="w-[371px] h-[317px]" />
           <div>
             <div>
