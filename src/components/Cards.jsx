@@ -6,15 +6,14 @@ function Cards({Tours, removeCard}){
 
 
    return(
-    <div className="flex flex-row gap-2 py-10 mr-3 justify-around">
-        <div>
+
+        <div className="flex items-center justify-center flex-wrap max-w-[1300px] m-auto">
             {
                 Tours.map((tour) => {
                     return <Card {...tour} removeCard = {removeCard}/>
                 })
             }
         </div>
-    </div>
   )
 }
 

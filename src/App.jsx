@@ -24,8 +24,8 @@ function App() {
 
   return (
     <>
-      <div className="flex items-center justify-center ">
-        <h1 className="border-2 border-dotted text-blue-700 text-center text-2xl">Tour With Traveli</h1>
+      <div className="flex flex-col">
+        <h1 className="font-bold m-6 text-center border-4 rounded-md py-3 px-4 border-white border-dashed">Tour With Traveli</h1>
         <Cards Tours={places} removeCard = {removeCard} />
       </div>
     </>
