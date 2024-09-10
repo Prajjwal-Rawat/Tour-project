@@ -16,8 +16,8 @@ function App() {
   if(places.length === 0){
     return(
       <div className="text-center items-center flex justify-center h-[100vh] flex-col"> 
-        <h1 className="text-pink-700 text-center">No Tours Left</h1>
-        <button onClick={() => setPlaces(Places)} className="border-2 py-1 px-2 mt-2">Refresh</button>
+        <h1 className="text-pink-700 text-center font-[600] text-[20px]">No Tours Left</h1>
+        <button onClick={() => setPlaces(Places)} className="rounded-md bg-gray-300 text-black py-1 px-4 mt-3 font-[600] shadow-md hover:transition-colors hover:bg-green-700">Refresh</button>
       </div>
     )
   }
